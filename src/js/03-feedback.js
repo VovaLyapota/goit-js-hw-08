@@ -34,7 +34,6 @@ function handleSubmit(event) {
   console.log(`Email: ${inputValues.emailTextInput}`);
   console.log(`Message: ${inputValues.messageTextInput}`);
 
-  emailInput.value = '';
   messageInput.value = '';
   localStorage.removeItem(LOCALSTORAGE_KEY);
 }
